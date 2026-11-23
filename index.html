@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Css en tablas</title>
+
+    <style>
+        h1 {
+            font-family: Georgia;
+        }
+
+        table {
+            border: 2px solid blue;
+            border-collapse: collapse;
+            width: 185px;
+        }
+
+        th, td {
+            border: 2px solid blue;
+            text-align: center;
+            padding: 30px 5px;
+        }
+
+        th {
+            background-color: white;
+        }
+
+        .azul {
+            background-color: #00d5e8;
+        }
+
+        .blanco {
+            background-color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Css en tablas</h1>
+
+    <table>
+        <tr>
+            <th>Artículo</th>
+            <th>Precio</th>
+        </tr>
+
+        <tr class="azul">
+            <td>Aceite de Oliva</td>
+            <td>10.00€</td>
+        </tr>
+
+        <tr class="blanco">
+            <td>Tortas de Alcázar</td>
+            <td>6.50</td>
+        </tr>
+
+        <tr class="azul">
+            <td>Miguelitos de La Roda</td>
+            <td>12.00€</td>
+        </tr>
+    </table>
+
+</body>
+</html>
